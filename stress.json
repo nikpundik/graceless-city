@@ -1,0 +1,19 @@
+{
+  "config": {
+    "target": "http://localhost:3001",
+    "phases": [
+      {"duration": 60, "arrivalRate": 20}
+    ]
+  },
+  "scenarios": [
+    {
+      "engine": "socketio",
+      "flow": [
+        {"think": 3},
+        {"emit": { "channel": "move", "data": 1}},
+        {"think": 8},
+        {"emit": { "channel": "move", "data": 5}}
+      ]
+    }
+  ]
+}
