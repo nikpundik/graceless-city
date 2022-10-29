@@ -18,8 +18,8 @@
     "react-dom": "^15.4.0",
     "react-leaflet": "1.0.0",
     "react-scripts": "0.7.0",
-    "socket.io": "^1.6.0",
-    "socket.io-client": "^1.6.0"
+    "socket.io": "^4.5.3",
+    "socket.io-client": "^4.5.3"
   },
   "scripts": {
     "lint": "eslint ./server",
